@@ -90,5 +90,3 @@ def prepare_for_mnist(image_path, output_path=None, display=True):
         Image.fromarray(mnist_img).save(output_path)
     
     return mnist_normalized
-
-prepare_for_mnist("path_to_your_cropped_image.png", "example.png")
